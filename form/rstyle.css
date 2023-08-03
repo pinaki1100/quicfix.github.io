@@ -1,0 +1,90 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container
+{
+    border: 2px solid black;
+    max-width: 500px;
+    width: 100%;
+    background-color: wheat;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.container .title
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.container .form{
+    width: 100%;
+}
+ .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+ .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+ input,
+ .textarea
+
+{
+   width: 70%;
+   padding: 5px;
+   outline: none;
+   border: 1px solid black;
+   font-size: 15px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+    width: 200px;
+    font-size: 18px;
+}
+ .selector{
+    width: 70%;
+    height: 30px;
+    border: 1px solid black;
+}
+.reg{
+    width: 70%;
+   padding: 5px;
+   margin-left: 70px;
+   outline: none;
+   border: 1px solid black;
+   font-size: 15px;
+   background-color: aqua;
+   cursor: pointer;
+
+}
+.field{
+    display:flex;
+    margin-bottom:10px;
+}
+input[type=checkbox]{
+    margin-left:5px;
+    width:15px;
+    height:15px;
+    
+}
+.pg{
+    margin-left: 5px;
+}
+.pinaki{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}

@@ -1,0 +1,57 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+ .title
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.form{
+    width: 100%;
+}
+.input_field{
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+}
+label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.btn{
+    width: 30%;
+    padding: 5px;
+    margin-left: 175px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+input{
+    width: 70%;
+    margin-right: 90px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.pinaki{
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+}
